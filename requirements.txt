@@ -11,5 +11,5 @@ scipy==0.19.1
 subprocess32==3.2.7
 sympy==1.1.1
 textblob==0.13.0
-tornado==4.5.2
+tornado==5.1
 virtualenv==15.1.0
