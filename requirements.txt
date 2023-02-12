@@ -13,3 +13,4 @@ sympy==1.1.1
 textblob==0.13.0
 tornado==4.5.2
 virtualenv==15.1.0
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
