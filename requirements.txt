@@ -1,7 +1,7 @@
 jupyter==1.0.0
 jupyter-client==5.1.0
 jupyter-console==5.2.0
-jupyter-core==4.3.0
+jupyter-core==4.11.2
 matplotlib==2.1.0
 mpmath==1.0.0
 nltk==3.2.5
@@ -11,5 +11,9 @@ scipy==0.19.1
 subprocess32==3.2.7
 sympy==1.1.1
 textblob==0.13.0
-tornado==4.5.2
+tornado==6.3.3
 virtualenv==15.1.0
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
